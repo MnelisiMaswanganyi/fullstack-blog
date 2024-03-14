@@ -2,12 +2,12 @@ import mysql2 from 'mysql2';
 import express from 'express';
 
 const connection = mysql2.createConnection(
-    {
+  /*  {
         host: "localhost",
         database: "blog",
         user: "root",
         password: "Mnelisi@5236",
-    }
+    }*/
 );
 
 const app  = express();
